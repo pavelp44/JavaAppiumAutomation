@@ -6,6 +6,4 @@ class MainClass {
     public String getClassString(){
         return class_string;
     }
-
-
 }

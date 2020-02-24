@@ -1,7 +1,6 @@
 import org.junit.Test;
 
-public class MainTest {
-
+class MainClass {
 
     public int getLocalNumber(){
         return 14;

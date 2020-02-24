@@ -1,7 +1,7 @@
 import org.junit.Assert;
 import org.junit.Test;
 
-public class MainClassTest extends MainTest{
+public class MainClassTest extends MainClass{
 
     @Test
 

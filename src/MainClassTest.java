@@ -5,14 +5,8 @@ import sun.applet.Main;
 public class MainClassTest extends MainClass {
 
     @Test
-    public void testGetClassNumber(){
-        Assert.assertTrue("class_number <= 45", getClassNumber() > 45);
-
-    }
-
-    @Test
-    public void testGetLocalNumber(){
-        Assert.assertTrue("Number is not equal 14",getLocalNumber() == 14);
+    public void testGetClassString(){
+        Assert.assertTrue("Failed to find substring in class_string", (getClassString().contains("Hello")) || getClassString().contains("hello"));
     }
 
 }

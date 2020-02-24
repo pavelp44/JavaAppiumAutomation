@@ -2,14 +2,10 @@ import org.junit.Test;
 
 class MainClass {
 
-    private int class_number = 20;
-
-    public int getClassNumber(){
-    return class_number;
+    private String class_string = "Hello, world";
+    public String getClassString(){
+        return class_string;
     }
 
-    public int getLocalNumber(){
-        return 14;
-    }
 
 }

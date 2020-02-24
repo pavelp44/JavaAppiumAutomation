@@ -1,7 +1,8 @@
 import org.junit.Assert;
 import org.junit.Test;
+import sun.applet.Main;
 
-public class MainClassTest extends MainClass{
+public class MainClassTest extends MainClass {
 
     @Test
 
